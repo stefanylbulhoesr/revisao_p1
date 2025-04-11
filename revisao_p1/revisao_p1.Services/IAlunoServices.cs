@@ -7,7 +7,7 @@ using revisao_p1.Domain;
 
 namespace revisao_p1.Services
 {
-    internal interface IAlunoServices
+    public interface IAlunoServices
     {
         void Salvar(string nome, decimal nota);
 
